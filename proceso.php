@@ -9,8 +9,9 @@ function validar(){
     }
 
 }
+$operacion = $_GET['operacion'];
 
-switch(validar()){
+switch($operacion){
     case 'suma':
         $n1=$_POST['n1'];
         $n2= $_POST['n2'];
