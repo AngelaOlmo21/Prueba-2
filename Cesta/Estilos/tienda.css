@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightgoldenrodyellow;
+}
+
+#header{
+    font-size: 35px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    background-color: darkgrey;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#header p{
+    padding-top: 30px;
+}
+
+#productos{
+    background-color: darkgrey;
+    height: 400px;
+    width: 650px;
+    border-radius: 10px;
+    margin: auto;
+    padding: auto;
+    margin-top: 40px;
+}

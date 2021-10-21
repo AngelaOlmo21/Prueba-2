@@ -9,8 +9,37 @@ function validar(){
     }
 
 }
-$operacion = $_GET['operacion'];
 
+if(isset($_POST['suma'])){
+    $n1=$_POST['n1'];
+    $n2= $_POST['n2'];
+    $suma= $n1 + $n2;
+    print_r($suma);
+}
+
+if(isset($_POST['resta'])){
+    $n1=$_POST['n1'];
+    $n2= $_POST['n2'];
+    $resta= $n1 - $n2;
+    print_r($resta);
+}
+
+if(isset($_POST['multi'])){
+    $n1=$_POST['n1'];
+    $n2= $_POST['n2'];
+    $multi= $n1 * $n2;
+    print_r($multi);
+}
+
+
+if(isset($_POST['divide'])){
+    $n1=$_POST['n1'];
+    $n2= $_POST['n2'];
+    $divide= $n1 / $n2;
+    print_r($divide);
+}
+
+/*
 switch($operacion){
     case 'suma':
         $n1=$_POST['n1'];
@@ -30,15 +59,15 @@ switch($operacion){
         $multi= $n1 * $n2;
         print_r($multi);
         break;
-    case 'division':
+    case 'divide':
         $n1=$_POST['n1'];
         $n2= $_POST['n2'];
-        $division= $n1 / $n2;
-        print_r($division);
+        $divide= $n1 / $n2;
+        print_r($divide);
         break;            
 }
 
-
+*/
 /*else{
     header("Location:form.html");
 }

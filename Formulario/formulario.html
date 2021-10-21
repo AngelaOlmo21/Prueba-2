@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="formulario.php">
+    
+    <p>Nombre</p><input type="text"  name="nombre">
+    <p>Apellidos</p><input type="text"  name="apellidos">
+    <p>DNI</p><input type="text"  name="dni">
+    <p>Fecha Nacimiento</p><input type="text"  name="fnac">
+    <p>Correo Electrónico</p><input type="text"  name="correo">
+    <h2>Hobbies</h2>
+    <p>Fotografía</p><input type="checkbox" name="hobbies[]" value="Fotografía">
+    <p>Deportes</p><input type="checkbox" name="hobbies[]" value="Deportes">
+    <p>Música</p><input type="checkbox" name="hobbies[]" value="Música">
+    <input type="submit" name="enviar" value="Enviar">
+       
+    </form>
+           
+</body>
+</html>
